@@ -12,6 +12,17 @@
   "peerDependencies": {
     "zod": "^4.0.0"
   },
+  "dependencies": {
+    "@onecoach/lib-ai": "workspace:*",
+    "@onecoach/lib-core": "workspace:*",
+    "@onecoach/lib-shared": "workspace:*",
+    "@onecoach/one-nutrition": "workspace:*",
+    "@onecoach/one-workout": "workspace:*",
+    "@onecoach/schemas": "workspace:*",
+    "@onecoach/types": "workspace:*",
+    "@prisma/client": "^7.2.0",
+    "ai": "6.0.5"
+  },
   "devDependencies": {
     "typescript": "^5.4.0",
     "zod": "^4.3.5"

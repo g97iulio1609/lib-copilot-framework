@@ -71,3 +71,20 @@ export {
   fuzzyFind,
   fuzzyFindAll,
 } from './core';
+
+// =====================================================
+// Services
+// =====================================================
+
+export {
+  ModificationService,
+  type ModifiedNutritionDayData,
+  type ModifyNutritionDayParams,
+  type ModifyWorkoutWeekParams,
+} from './services/modification.service';
+
+export {
+  recalculateMacrosForDay,
+  type RecalculateRequest,
+  type RecalculateResult,
+} from './services/macro-recalculator';
