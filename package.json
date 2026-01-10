@@ -19,9 +19,17 @@
     "@onecoach/one-nutrition": "workspace:*",
     "@onecoach/one-workout": "workspace:*",
     "@onecoach/schemas": "workspace:*",
-    "@onecoach/types": "workspace:*",
     "@prisma/client": "^7.2.0",
-    "ai": "6.0.5"
+    "ai": "6.0.19",
+    "@onecoach/types-core": "workspace:*",
+    "@onecoach/types-workout": "workspace:*",
+    "@onecoach/types-nutrition": "workspace:*",
+    "@onecoach/types-chat": "workspace:*",
+    "@onecoach/types-analytics": "workspace:*",
+    "@onecoach/types-ai": "workspace:*",
+    "@onecoach/types-ui": "workspace:*",
+    "@onecoach/types-domain": "workspace:*",
+    "@onecoach/types-database": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.4.0",
@@ -34,7 +42,10 @@
       "require": "./dist/index.js"
     }
   },
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/g97iulio1609/lib-copilot-framework"
